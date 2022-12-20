@@ -8,11 +8,13 @@
 </head>
 <body>
 ${passwordWarning }
+${passwordreset }
 <form action="Login" method="post">
-User Id<input type="text" name="userId"/>
+User Id<input type="number" name="userId"/>
 Password<input type="password" name="password" />
 <input type="submit" value="submit"/>
 <a href="displaySignupForm">Signup</a>
+<a href="forgotPassword">Forgot Password</a>
 </form>
 </body>
 </html>

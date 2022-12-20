@@ -1,16 +1,6 @@
 package com.avitam.application.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
-@Entity
-public class Jspuser {
-
-	@Id
-	@GeneratedValue
+public class UserData {
 	private int userId;
 	private String firstName;
 	private String lastName;
