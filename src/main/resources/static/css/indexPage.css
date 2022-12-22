@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+body{
+	
+}
+table{
+	background-color:lightblue;
+}
+#header{
+	margin-top:0px;
+}
+
+#tableRow{
+	margin :100px 250px 150px 80px;
+}

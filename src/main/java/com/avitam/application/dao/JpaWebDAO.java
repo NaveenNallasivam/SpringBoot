@@ -14,10 +14,5 @@ public interface JpaWebDAO extends JpaRepository<Jspuser, Integer> {
 
 	public Jspuser findByUserIdAndPassword(int id, String password);
 	
-	@Transactional 
-	@Modifying(clearAutomatically = true)
-	@Query("update Jspuser  set email = :email,firstName = :firstName,lastName = :lastName,password = :password where userId = :userId") 
-	int updateJspUser(@Param("email")String email,@Param("firstName")String firstName,@Param("lastName")String lastName,@Param("password")String password,@Param("userId")int userId);
- 
-
+	
 }
